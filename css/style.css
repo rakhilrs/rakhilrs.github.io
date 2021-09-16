@@ -1,0 +1,70 @@
+
+
+body {
+    background-image: url('../img/kimia.jpg');
+    background-size: cover;
+    height: 500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs
+}
+
+.top-wrapper {
+    background-color: rgb(70, 70, 70);  
+    color: white;
+    padding: 50px 50px;
+    margin-bottom: 150px;
+    opacity: 1;
+}
+
+.top-wrapper img {
+    padding-top: 10px;
+    float: right;
+}
+
+#fahrenheit {
+    width: 400px;
+    border-color:rgb(158, 195, 250);
+    float:left;
+    margin-left: 200px;
+    background-color: rgba(80, 223, 24, 0.719) ;
+    
+}
+
+#celcius {
+    width: 400px;
+    border-color:rgb(158, 195, 250);
+    float:right;
+    margin-right: 200px;
+    background-color: rgba(80, 223, 24, 0.719) ;
+
+}
+
+.btm-wrapper {
+    margin-top: 250px;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 20px 20px; 
+    
+    margin-bottom: 30px;
+    opacity: 1;
+
+
+}
+.btm-wrapper h2 {
+    color: aqua;
+}
+
+.unsri a {
+    color: aqua;
+}
+.unsri p {
+    font-size: 10px;
+    color: aqua;
+}
+.text-move {
+    color: rgb(24, 250, 24);
+}
+
+.sosial-media p {
+    color: aqua;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+<title>Temperature Conversion</title>
+<script src="js/script suhu.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+
+<head>
+    <div  class="top-wrapper">
+       
+        <h1>Temperature Conversion</h1>
+        <p>Website sederhana pengkonversi Celcius ke Fahrenheit</p>
+        
+    </div>
+    
+</head>
+
+<body>
+    <div class="mid-wrapper">
+        <table align="center" >
+            <tr>
+                <td>
+                    <div class="celcius-form">
+                        <form>
+                            <fieldset id="fahrenheit">
+                                <legend><b>Celcius ke Fahrenheit :</b></legend>
+                                <div class="suhu-celcius">
+                                    <p>Masukkan nilai Celcius</p>
+                                    <b><label for="celcius">Celsius :</label></b><br>
+                                    <input type="number" id="celcius1" name="celcius" value="tempcelcius"><br><br>
+                                </div>
+                
+                                    <button type="button" id="button1" onclick="cel ()">konversikan ke fahrenheit</button>
+                                    <button type="reset" onclick="cel ()">reset</button>
+                    
+                                <div class="suhu-fahrenheit">
+                                    <b><label for="fahrenheit">Fahrenheit :</label></b><br>
+                                    <input type="number" id="fahrenheit1" name="fahrenheit" value="tempfahrenheit" readonly><br>
+                                </div>
+                            </fieldset>
+                        
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div class="fahrenheit-form">
+                        <form>
+                            <fieldset id="celcius">
+                             <legend><b>Fahrenheit ke Celcius :</b></legend>
+                             <div class="suhu fahrenheit">
+                                <p>Masukkan nilai fahrenheit</p>
+                                 <b><label for="fahrenheit">Fahrenheit :</label></b><br>
+                                 <input type="number" id="fahrenheit2" name="fahrenheit" value="tempfahrenheit"><br><br>
+                             </div>
+                         
+                             <button type="button" id="button2" onclick="fah ()">konversikan ke fahrenheit</button>
+                             <button type="reset" onclick="fah ()">reset</button><br>
+                 
+                             <div class="suhu celcius">
+                                 <b><label for="celcius">Celsius :</label></b><br>
+                                 <input type="number" id="celcius2" name="celcius" value="tempcelcius" readonly><br>
+                             </div>
+                 
+                            </fieldset>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<footer>
+    <div class="btm-wrapper">
+        <h2>Dibuat oleh Muhammad Rakhil Sutiyono</h2>
+
+        <div class="unsri">
+            <a href="https://unsri.ac.id/">Universitas Sriwijaya</a><br><br>
+            
+            <table align="center">
+                 <tr>
+                     <td>
+                        <a href="https://unsri.ac.id/" target="_blank"><img src="img/logo-unsri.png" alt="UNSRI" height="100px"></a>
+                     </td>
+
+                     <td>
+                        <a href="https://km-unsri.com/km-unsri/detail_ormawa/index/ORW-0d989f356e3893" target="_blank"><img src="img/hme.jpeg" alt="Himpunan Mahasiswa Elektro" height="100px" width="100px"></a>
+                     </td>
+                </tr>
+             </table>
+             <p>klik gambar untuk melihat detail </p><br><br>
+        </div>
+        
+        
+        <div class="text-move">
+            <marquee scrollamount="15">Website hanya kompatibel di desktop</marquee>
+        </div>
+        
+        <div class="sosial-media">
+            <p>ikuti sosial media saya dibawah ini :</p>
+            <a href="https://instagram.com/rakhilrs/" target="_blank"><img src="img/instagram.png" width="35px" height="35px" alt="Instagram saya"></a>
+        </div>
+    </div>
+    
+</footer>
+
+</html>
